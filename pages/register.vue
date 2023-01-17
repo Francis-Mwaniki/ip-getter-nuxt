@@ -102,7 +102,8 @@ export default {
   mounted() {},
   methods: {
     async submit() {
-      let url = "http://localhost:8000/register/";
+      //let url = "http://localhost:8000/";
+      let url= "https://ip-getter.vercel.app/register/"
       let res = await fetch(url, {
         method: "POST",
         headers: { "Content-Type": "application/json" },

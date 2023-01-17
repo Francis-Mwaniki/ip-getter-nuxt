@@ -90,7 +90,8 @@
   mounted() {},
   methods: {
     async submit() {
-      let url = "http://localhost:8000/login/";
+     // let url = "http://localhost:8000/login/";
+      let url = "https://ip-getter.vercel.app/login/"
       let res = await fetch(url, {
         method: "POST",
         headers: { "Content-Type": "application/json" },

@@ -16,7 +16,8 @@ export default {
     },
     methods: {
     async getIp() {
-      let url = "http://localhost:8000/";
+     // let url = "http://localhost:8000/";
+      let url ="https://ip-getter.vercel.app/"
       let res = await fetch(url, {
         method: "GET",
       });
