@@ -1,7 +1,7 @@
 <template>
 <header class="bg-slate-900 shadow-lg h-24 hidden  md:flex">
   <a href="" class=" flex-shrink-0 flex items-center justify-center px-4 lg:px-6 xl:px-8">
-    <img class="" src="https://cdn.pixabay.com/photo/2016/03/31/18/26/coding-1294361__340.png" alt="" />
+    <img class=" h-12 w-12" src="https://cdn.pixabay.com/photo/2016/03/31/18/26/coding-1294361__340.png" alt="" />
   </a>
   <nav class="header-links contents font-semibold text-base lg:text-lg">
     <ul class="flex items-center ml-4 xl:ml-8 mr-auto">
