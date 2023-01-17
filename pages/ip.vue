@@ -1,6 +1,6 @@
 <template>
   <div class=" text-white">
-    Hello your ip {{ ip }}
+    Hello your ip <span class=" rounded p-3 bg-pink-500">{{ ip }}</span>
   </div>
 </template>
 
