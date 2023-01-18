@@ -165,19 +165,25 @@
       </a>
       <nav class="div-links font-semibold text-base">
         <ul class="ml-4 xl:ml-8 mr-auto flex justify-center items-center mx-auto">
-          <li class="p-3 xl:p-6 text-white" :class="'active' ? 'border-red-500' : ''">
+          <li
+            class="p-3 xl:p-6 text-white active"
+            :class="'active' ? 'border-red-500' : ''"
+          >
             <NuxtLink to="/">
               <span>Home</span>
             </NuxtLink>
           </li>
-          <li class="p-3 xl:p-6 text-white" :class="'active' ? 'border-red-500' : ''">
+          <li
+            class="p-3 xl:p-6 text-white active"
+            :class="'active' ? 'border-red-500' : ''"
+          >
             <NuxtLink to="/ip">
               <span>My Ip</span>
             </NuxtLink>
           </li>
 
           <li
-            class="p-3 xl:p-6 bg-red-600 hover:bg-pink-700 text-white font-bold px-4 xl:px-6 py-2 xl:py-1 rounded"
+            class="p-3 xl:p-6 bg-red-600 hover:bg-pink-700 text-white font-bold px-8 xl:px-6 py-2 xl:py-1 rounded"
           >
             <button class=" " @click="logout">
               <span>logout</span>
@@ -186,10 +192,10 @@
         </ul>
       </nav>
       <!-- Mobile -->
-      <div class="justify-start items-center px-4 lg:px-6 xl:px-8">
+      <div class="justify-start mt-3 items-center px-4 lg:px-6 xl:px-8">
         <NuxtLink
           to="/login"
-          class="bg-red-600 hover:bg-pink-700 text-white font-bold px-4 xl:px-6 py-2 xl:py-3 rounded"
+          class="bg-red-600 px-20 hover:bg-pink-700 text-white font-bold xl:px-6 py-3 xl:py-3 rounded"
           >Login</NuxtLink
         >
       </div>
