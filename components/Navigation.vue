@@ -181,14 +181,6 @@
               <span>My Ip</span>
             </NuxtLink>
           </li>
-
-          <li
-            class="p-3 xl:p-6 bg-red-600 hover:bg-pink-700 text-white font-bold px-8 xl:px-6 py-2 xl:py-1 rounded"
-          >
-            <button class=" " @click="logout">
-              <span>logout</span>
-            </button>
-          </li>
         </ul>
       </nav>
       <!-- Mobile -->
