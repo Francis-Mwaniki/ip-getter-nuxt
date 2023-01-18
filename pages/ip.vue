@@ -1,6 +1,6 @@
 <template>
 <div class="flex min-h-screen bg-slate-900">
-    <div class="relative flex justify-center max-w-2xl py-4 m-auto bg-white shadow-2xl px-3">
+    <div class="relative flex justify-center max-w-full py-4 m-auto bg-white shadow-2xl px-3">
         <span class="absolute top-0 right-0 block w-10 h-5 -mt-2 -mr-4 text-xs text-center text-gray-600 transform rotate-45 bg-white rounded shadow-md cursor-pointer hover:bg-gray-100">ip</span>
         <div class="w-1/2 ml-4 bg-cover m-1" style="background-image:url('https://media.istockphoto.com/id/1440433765/photo/users-accessing-website-through-virtual-private-network-to-hide-the-internet-traffic-online.jpg?b=1&s=170667a&w=0&k=20&c=kQ19_h9cR9hz75p6-RGIoxpIEWHL9KjYB-mOBdA8Pks=')">
         </div>
@@ -14,7 +14,7 @@
             <div>
                 <form>
                   
-                    <button class="block w-full min-w-full  text-red-400 bg-red-900 hover:text-white py-3 rounded shadow-lg hover:bg-red-600" > {{ ip }}</button>
+                    <button class="block w-full min-w-full  text-red-400   py-3 rounded shadow-lg " > {{ ip }}</button>
                 </form>
                 <ul class="flex justify-center mt-4 space-x-3 text-xs text-gray-700 px-2">
                     <li class="flex items-center px-1">
