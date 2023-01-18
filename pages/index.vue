@@ -6,7 +6,7 @@
         <label for="my-modal-3" class="btn btn-sm btn-circle absolute right-2 top-2"
           >✕</label
         >
-        <h3 class="text-lg font-bold">What's An Ip Address?</h3>
+        <h3 class="text-lg font-bold text-white">What's An Ip Address?</h3>
         <p class="py-4 text-white">
           An IP address (Internet Protocol address) is a numerical label assigned to each
           device connected to a computer network that uses the Internet Protocol for
