@@ -1,10 +1,10 @@
 <template>
 <main>
-  <header class="bg-slate-900 shadow-lg h-24 hidden  md:flex">
+  <div class="bg-slate-900 shadow-lg h-24 hidden  md:flex">
   <a href="" class=" flex-shrink-0 flex items-center justify-center px-4 lg:px-6 xl:px-8">
     <img class=" h-12 w-12" src="https://cdn.pixabay.com/photo/2016/03/31/18/26/coding-1294361__340.png" alt="" />
   </a>
-  <nav class="header-links contents font-semibold text-base lg:text-lg">
+  <nav class="div-links contents font-semibold text-base lg:text-lg">
     <ul class="flex items-center ml-4 xl:ml-8 mr-auto">
       <li class="p-3 xl:p-6  text-white" :class="'active'? 'border-red-500': ''">
         <NuxtLink  to="/">
@@ -59,12 +59,12 @@
     </a>
     <NuxtLink to="/login" class="bg-red-600 hover:bg-pink-700 text-white font-bold px-4 xl:px-6 py-2 xl:py-3 rounded">Login</NuxtLink>
   </div>
-</header>
-<header class="bg-slate-900 shadow-lg h-24 md:hidden flex-col justify-center items-center  flex">
-  <a href="" class=" flex-shrink-0 flex items-center justify-center px-4 mt-12 lg:px-6 xl:px-8">
+</div>
+<div class="bg-slate-900 shadow-lg h-24 md:hidden flex-col justify-center items-center  flex">
+  <a href="#" class=" flex-shrink-0 flex items-center justify-center px-4 mt-12">
     <img class=" h-12 w-12" src="https://cdn.pixabay.com/photo/2016/03/31/18/26/coding-1294361__340.png" alt="" />
   </a>
-  <nav class="header-links  font-semibold text-base lg:text-lg ">
+  <nav class="div-links  font-semibold text-base  ">
     <ul class=" ml-4 xl:ml-8 mr-auto flex  justify-center items-center mx-auto">
       <li class="p-3 xl:p-6  text-white" :class="'active'? 'border-red-500': ''">
         <NuxtLink  to="/">
@@ -119,7 +119,7 @@
     </a>
     <NuxtLink to="/login" class="bg-red-600 hover:bg-pink-700 text-white font-bold px-4 xl:px-6 py-2 xl:py-3 rounded">Login</NuxtLink>
   </div>
-</header>
+</div>
 </main>
 </template>
 
@@ -145,12 +145,12 @@ methods:{
 </script>
 
 <style>
-  .header-links li span {
+  .div-links li span {
     position: relative;
     z-index: 0;
   }
 
-  .header-links li span::before {
+  .div-links li span::before {
     content: '';
     position: absolute;
     z-index: -1;
@@ -161,11 +161,11 @@ methods:{
     height: 6px;
   }
 
-  .header-links li.active span::before {
+  .div-links li.active span::before {
     background-color: #e95d1d;
   }
 
-  .header-links li:not(.active):hover span::before {
+  .div-links li:not(.active):hover span::before {
     background-color: rgb(219, 66, 45);
   }
 </style>
