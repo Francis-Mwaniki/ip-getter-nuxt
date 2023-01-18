@@ -14,7 +14,7 @@
             <div>
                 <form>
                   
-                    <button class="block w-full  text-red-400 bg-red-900 hover:text-white py-3 rounded shadow-lg hover:bg-red-600" > {{ ip }}</button>
+                    <button class="block w-full min-w-full  text-red-400 bg-red-900 hover:text-white py-3 rounded shadow-lg hover:bg-red-600" > {{ ip }}</button>
                 </form>
                 <ul class="flex justify-center mt-4 space-x-3 text-xs text-gray-700 px-2">
                     <li class="flex items-center px-1">
