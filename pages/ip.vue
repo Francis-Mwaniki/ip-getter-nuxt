@@ -21,7 +21,9 @@
         </div>
         <div>
           <form>
-            <button class="block w-full min-w-full text-red-400 py-3 rounded">
+            <button
+              class="block w-full min-w-full border-b-2 border-red-300 text-red-400 py-3 rounded"
+            >
               {{ ip }}
             </button>
           </form>
